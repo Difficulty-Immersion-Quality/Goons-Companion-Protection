@@ -1,7 +1,11 @@
+// ==================================== Wot ====================================
+
 new entry "GOON_BUFF_COMPANION_TEMPHP_30"
 type "StatusData"
 data "StatusType" "BOOST"
+// Goon's Companion Protection
 data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678"
 data "DescriptionParams" "30;3;5"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
@@ -28,7 +32,9 @@ data "StatusGroups" "SG_RemoveOnRespec"
 new entry "GOON_BUFF_COMPANION_DAMAGE_REDUCTION_3"
 type "StatusData"
 data "StatusType" "BOOST"
+// Goon's Companion Protection
 data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678"
 data "DescriptionParams" "30;3;5"
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
@@ -44,7 +50,9 @@ data "StatusGroups" "SG_RemoveOnRespec"
 new entry "GOON_BUFF_COMPANION_ADVANTAGE_ALL_SAVING_THROWS"
 type "StatusData"
 data "StatusType" "BOOST"
+// Goon's Companion Protection
 data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
+// You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.
 data "Description" "h807f4600g99d1g4cc4gb515ga5c2d2499eb6"
 data "DescriptionParams" "30;3;5"
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

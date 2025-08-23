@@ -1,37 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="h6afb49ecg0afdg4027g98cdge75b2997bd61" version="1">Boon of the Moon Maiden</content>
-	<content contentuid="hf3098a8ag8411g4347g97a3gba624e74aa10" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, damage taken from all sources is reduced by [2] and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.
-Additionally, if you have less than [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; at the start of your turn in combat you regain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<!-- "Goon_Buff_Companion_Temporary_Jaheira" --> <content contentuid="h6afb49ecg0afdg4027g98cdge75b2997bd61" version="1">Boon of the Moon Maiden</content>
+	<!-- "Goon_Buff_Companion_Temporary_Jaheira" --> <content contentuid="hf3098a8ag8411g4347g97a3gba624e74aa10" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, damage taken from all sources is reduced by [2] and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, if you have less than [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; at the start of your turn in combat you regain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h36209bb6g8c0bg4c50gb164gbef07a03c794" version="1">Buttkicking for Evil?</content>
-	<content contentuid="h588f7502g90e0g4cc1ga9a8g7f6776d6d1c6" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
+	<!-- "Goon_Buff_Companion_Temporary_Minsc" --> <content contentuid="h36209bb6g8c0bg4c50gb164gbef07a03c794" version="1">Buttkicking for Evil?</content>
+	<!-- "Goon_Buff_Companion_Temporary_Minsc" --> <content contentuid="h588f7502g90e0g4cc1ga9a8g7f6776d6d1c6" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
 
-	<content contentuid="h7200749fg83ffg4009g805dg653ab032a88f" version="1">Help Me Step Wizard, I'm Stuck</content>
-	<content contentuid="hc0cd8628ge3d3g4abega26egd22a90cfc136" version="1"></content>
+	<!-- "Goon_Buff_Companion_Temporary_Gale" --> <content contentuid="h7200749fg83ffg4009g805dg653ab032a88f" version="1">Help Me Step Wizard, I'm Stuck</content>
+	<!-- "Goon_Buff_Companion_Temporary_Gale" --> <content contentuid="hc0cd8628ge3d3g4abega26egd22a90cfc136" version="1"></content>
 
-	<content contentuid="hf8cb37f3ga331g4a29g8deeg8b4beec29e4d" version="1">Prepared for Boarish Battle</content>
-	<content contentuid="h8330071ag331bg4477gaa21g42a300542a2c" version="1"></content>
+	<!-- "Goon_Buff_Companion_Temporary_Astarion" --> <content contentuid="hf8cb37f3ga331g4a29g8deeg8b4beec29e4d" version="1">Prepared for Boarish Battle</content>
+	<!-- "Goon_Buff_Companion_Temporary_Astarion" --> <content contentuid="h8330071ag331bg4477gaa21g42a300542a2c" version="1"></content>
 
-	<content contentuid="hc562a9c5ga258g4f58gb83agfe5160a95442" version="1">Vlaakith's Will</content>
-	<content contentuid="h3ba4cdedg1630g47beg9418g0f05a79784b1" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
+	<!-- "Goon_Buff_Companion_Temporary_Laezel" --> <content contentuid="hc562a9c5ga258g4f58gb83agfe5160a95442" version="1">Vlaakith's Will</content>
+	<!-- "Goon_Buff_Companion_Temporary_Laezel" --> <content contentuid="h3ba4cdedg1630g47beg9418g0f05a79784b1" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
 
-	<content contentuid="h495ebdceg09aag474cg9fa6gb719379cf2b2" version="1">Wyll's Ego</content>
-	<content contentuid="hd9a015f3g662fg4f0aga8f3g646ef53f5e10" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
+	<!-- "Goon_Buff_Companion_Temporary_Wyll" --> <content contentuid="h495ebdceg09aag474cg9fa6gb719379cf2b2" version="1">Wyll's Ego</content>
+	<!-- "Goon_Buff_Companion_Temporary_Wyll" --> <content contentuid="hd9a015f3g662fg4f0aga8f3g646ef53f5e10" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
 
-	<content contentuid="h34376b3cg778fg4fa3g84dbg191ad2976814" version="1">Empowering Amnesia</content>
-	<content contentuid="h451cd6a9gc00fg436cga477g361e682cbab8" version="1"></content>
+	<!-- "Goon_Buff_Companion_Temporary_ShadowHeart" --> <content contentuid="h34376b3cg778fg4fa3g84dbg191ad2976814" version="1">Empowering Amnesia</content>
+	<!-- "Goon_Buff_Companion_Temporary_ShadowHeart" --> <content contentuid="h451cd6a9gc00fg436cga477g361e682cbab8" version="1"></content>
 
-	<content contentuid="h1e6c35a7g741eg4a2fgace1g47bcf0d5731e" version="1">Climatising</content>
-	<content contentuid="h3ced58aag09b0g4355gab4eg10f4dce4063d" version="1"></content>
+	<!-- "Goon_Buff_Companion_Temporary_Karlach" --> <content contentuid="h1e6c35a7g741eg4a2fgace1g47bcf0d5731e" version="1">Climatising</content>
+	<!-- "Goon_Buff_Companion_Temporary_Karlach" --> <content contentuid="h3ced58aag09b0g4355gab4eg10f4dce4063d" version="1"></content>
 
-	<content contentuid="h21042870g733ag4fb9gbe8bg8c47259f6350" version="1">Contemplating Genocide</content>
-	<content contentuid="hdf952ea6g01f4g4708ga465g7216cd721c9f" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
+	<!-- "Goon_Buff_Companion_Temporary_Minthara" --> <content contentuid="h21042870g733ag4fb9gbe8bg8c47259f6350" version="1">Contemplating Genocide</content>
+	<!-- "Goon_Buff_Companion_Temporary_Minthara" --> <content contentuid="hdf952ea6g01f4g4708ga465g7216cd721c9f" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
 
-	<content contentuid="h58b02c9dg26eag42deg8481g5c1aa721e8f7" version="1">Unbearable Goblins</content>
-	<content contentuid="h64c1abe5ge68fg4696g8593gbfa8f526107d" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
+	<!-- "Goon_Buff_Companion_Temporary_Halsin" --> <content contentuid="h58b02c9dg26eag42deg8481g5c1aa721e8f7" version="1">Unbearable Goblins</content>
+	<!-- "Goon_Buff_Companion_Temporary_Halsin" --> <content contentuid="h64c1abe5ge68fg4696g8593gbfa8f526107d" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
 
+	<!-- "GOON_BUFF_COMPANION_TEMPHP_30", "GOON_BUFF_COMPANION_DAMAGE_REDUCTION_3", "GOON_BUFF_COMPANION_ADVANTAGE_ALL_SAVING_THROWS" -->
 	<content contentuid="h52686c0ag3fdfg454cgadb8g7a360a1f0459" version="1">Goon's Companion Protection</content>
+	<!-- "GOON_BUFF_COMPANION_TEMPHP_30", "GOON_BUFF_COMPANION_DAMAGE_REDUCTION_3" -->
 	<content contentuid="hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678" version="1">You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].</content>
-	<content contentuid="h807f4600g99d1g4cc4gb515ga5c2d2499eb6" version="1">you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<!-- "GOON_BUFF_COMPANION_ADVANTAGE_ALL_SAVING_THROWS" -->
+	<content contentuid="h807f4600g99d1g4cc4gb515ga5c2d2499eb6" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 </contentList>

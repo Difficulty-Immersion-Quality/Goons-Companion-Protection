@@ -13,7 +13,9 @@ data "StatsFunctors" ""
 new entry "Goon_Buff_Companion_Temporary_Jaheira"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Boon of the Moon Maiden
 data "DisplayName" "h6afb49ecg0afdg4027g98cdge75b2997bd61"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, damage taken from all sources is reduced by [2] and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, if you have less than [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; at the start of your turn in combat you regain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.
 data "Description" "hf3098a8ag8411g4347g97a3gba624e74aa10"
 data "StatsFunctorContext" "OnTurn"
 data "StatsFunctors" "ApplyStatus(GOON_BUFF_COMPANION_TEMPHP_REGEN_5,100,-1)"
@@ -21,53 +23,71 @@ data "StatsFunctors" "ApplyStatus(GOON_BUFF_COMPANION_TEMPHP_REGEN_5,100,-1)"
 new entry "Goon_Buff_Companion_Temporary_Minsc"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Buttkicking for Evil?
 data "DisplayName" "h36209bb6g8c0bg4c50gb164gbef07a03c794"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "h588f7502g90e0g4cc1ga9a8g7f6776d6d1c6"
 
 new entry "Goon_Buff_Companion_Temporary_Gale"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Help Me Step Wizard, I'm Stuck
 data "DisplayName" "h7200749fg83ffg4009g805dg653ab032a88f"
+// 
 data "Description" "hc0cd8628ge3d3g4abega26egd22a90cfc136"
 
 new entry "Goon_Buff_Companion_Temporary_Astarion"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Prepared for Boarish Battle
 data "DisplayName" "hf8cb37f3ga331g4a29g8deeg8b4beec29e4d"
+// 
 data "Description" "h8330071ag331bg4477gaa21g42a300542a2c"
 
 new entry "Goon_Buff_Companion_Temporary_Laezel"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Vlaakith's Will
 data "DisplayName" "hc562a9c5ga258g4f58gb83agfe5160a95442"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "h3ba4cdedg1630g47beg9418g0f05a79784b1"
 
 new entry "Goon_Buff_Companion_Temporary_Wyll"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Wyll's Ego
 data "DisplayName" "h495ebdceg09aag474cg9fa6gb719379cf2b2"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "hd9a015f3g662fg4f0aga8f3g646ef53f5e10"
 
 new entry "Goon_Buff_Companion_Temporary_ShadowHeart"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Empowering Amnesia
 data "DisplayName" "h34376b3cg778fg4fa3g84dbg191ad2976814"
+// 
 data "Description" "h451cd6a9gc00fg436cga477g361e682cbab8"
 
 new entry "Goon_Buff_Companion_Temporary_Karlach"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Climatising
 data "DisplayName" "h1e6c35a7g741eg4a2fgace1g47bcf0d5731e"
+// 
 data "Description" "h3ced58aag09b0g4355gab4eg10f4dce4063d"
 
 new entry "Goon_Buff_Companion_Temporary_Minthara"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Contemplating Genocide
 data "DisplayName" "h21042870g733ag4fb9gbe8bg8c47259f6350"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "hdf952ea6g01f4g4708ga465g7216cd721c9f"
 
 new entry "Goon_Buff_Companion_Temporary_Halsin"
 type "PassiveData"
 using "Goon_Buff_Companion_Temporary_Template"
+// Unbearable Goblins
 data "DisplayName" "h58b02c9dg26eag42deg8481g5c1aa721e8f7"
+// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
 data "Description" "h64c1abe5ge68fg4696g8593gbfa8f526107d"
