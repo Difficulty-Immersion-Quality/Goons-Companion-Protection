@@ -1,5 +1,5 @@
 {
-    "RequiredVersion": 2,
-    "ModTable": "Goon's Companion Protection",
+    "RequiredVersion": 31,
+    "ModTable": "GCP",
     "FeatureFlags": ["Lua"]
 }

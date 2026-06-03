@@ -1,16 +1,16 @@
---- @type RegisterVariableOptions
+Ext.Require("Shared/_Init.lua")
+Ext.Require("Server/_Init.lua")
+
 local opts = {
-    Server = true,
-    Client = false,
-    WriteableOnServer = true,
-    WriteableOnClient = false,
-    Persistent = true,
-    SyncToClient = false,
-    SyncToServer = true,
-    SyncOnWrite = false,
-    DontCache = false
+	Server = true,
+	Client = false,
+	WriteableOnServer = true,
+	WriteableOnClient = false,
+	Persistent = true,
+	SyncToClient = false,
+	SyncOnWrite = false,
+	DontCache = false
 }
 
 Ext.Vars.RegisterModVariable(ModuleUUID, "GoonProtection_On", opts)
 Ext.Vars.RegisterModVariable(ModuleUUID, "GoonProtection_Off", opts)
-Ext.Require("Server/_Core.lua")
