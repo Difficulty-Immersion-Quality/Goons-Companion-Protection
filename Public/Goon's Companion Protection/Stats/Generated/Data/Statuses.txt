@@ -1,65 +1,57 @@
-// ==================================== Wot ====================================
+// ==================================== Temp HP ====================================
 
 new entry "GOON_BUFF_COMPANION_TEMPHP_30"
 type "StatusData"
 data "StatusType" "BOOST"
-// Goon's Companion Protection
-data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
-// You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
-data "Description" "hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678"
-data "DescriptionParams" "30;3;5"
-data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+// Temporary Hit Points
+data "DisplayName" "h748a3626g0884g4f9dg936fgbce0acc364a3;3"
+// Kept from death's door by a brief magical boost. Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point&lt;/LSTag&gt;.
+data "Description" "h571ae7d4g7affg41b6gb73ag40a099e476d9;3"
+data "DescriptionParams" "30"
 data "Icon" "Spell_Necromancy_FalseLife"
 data "StackId" "TEMPORARY_HP"
 data "StackPriority" "30"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 data "Boosts" "TemporaryHP(30)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-new entry "GOON_BUFF_COMPANION_TEMPHP_REGEN_5"
+new entry "GOON_BUFF_COMPANION_TEMPHP_15"
 type "StatusData"
 data "StatusType" "BOOST"
-data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Icon" "Spell_Necromancy_FalseLife"
-data "StackId" "TEMPORARY_HP"
-data "StackPriority" "5"
-data "Boosts" "TemporaryHP(5)"
-data "RemoveConditions" ""
-data "RemoveEvents" "OnDamage"
-data "StatusGroups" "SG_RemoveOnRespec"
+using "GOON_BUFF_COMPANION_TEMPHP_30"
+data "DescriptionParams" "15"
+data "StackPriority" "15"
+data "Boosts" "TemporaryHP(15)"
+
+// ==================================== Damage Reduction ====================================
 
 new entry "GOON_BUFF_COMPANION_DAMAGE_REDUCTION_3"
 type "StatusData"
 data "StatusType" "BOOST"
 // Goon's Companion Protection
-data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
+data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459;1"
 // You gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and damage taken from all sources is reduced by [2].
-data "Description" "hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678"
+data "Description" "hfa7aa2f4g42cfg42bbgbb6bg2f4008bc1678;1"
 data "DescriptionParams" "30;3;5"
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Icon" ""
-data "StackType" "Overwrite"
 data "StackId" "GOON_BUFF_COMPANION_DAMAGE_REDUCTION"
-data "StackPriority" "1"
+data "StackPriority" "3"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "Boosts" "DamageReduction(All, Flat, 3)"
-data "RemoveConditions" ""
-data "RemoveEvents" ""
 data "StatusGroups" "SG_RemoveOnRespec"
+
+// ==================================== Advantage on Saving Throws ====================================
 
 new entry "GOON_BUFF_COMPANION_ADVANTAGE_ALL_SAVING_THROWS"
 type "StatusData"
 data "StatusType" "BOOST"
 // Goon's Companion Protection
-data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459"
-// You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.
-data "Description" "h807f4600g99d1g4cc4gb515ga5c2d2499eb6"
+data "DisplayName" "h52686c0ag3fdfg454cgadb8g7a360a1f0459;1"
+// You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.
+data "Description" "h807f4600g99d1g4cc4gb515ga5c2d2499eb6;1"
 data "DescriptionParams" "30;3;5"
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "StackType" "Overwrite"
 data "StackId" "GOON_BUFF_COMPANION_ADVANTAGE_ALL_SAVING_THROWS"
-data "StackPriority" "1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "Boosts" "Advantage(SavingThrow, Strength);Advantage(SavingThrow, Dexterity);Advantage(SavingThrow, Constitution);Advantage(SavingThrow, Intelligence);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma)"
-data "RemoveConditions" ""
-data "RemoveEvents" ""
 data "StatusGroups" "SG_RemoveOnRespec"
