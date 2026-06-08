@@ -6,7 +6,7 @@
       <children>
         <node id="Dependencies" />
         <node id="ModuleInfo">
-          <attribute id="Author" type="LSString" value="Goonsack" />
+          <attribute id="Author" type="LSString" value="Goonsack &amp; Nzx" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
           <attribute id="Description" type="LSString" value="Buffs potential companion character prior to recruitment, primarily intended for use with Combat Extender so they don't get steamrolled while using mods that increase difficulty." />
           <attribute id="Folder" type="LSString" value="Goon's Companion Protection" />
